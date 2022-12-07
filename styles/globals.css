@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 html,
 body {
   padding: 0;
