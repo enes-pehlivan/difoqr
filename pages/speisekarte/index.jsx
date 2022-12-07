@@ -1,6 +1,5 @@
 import React from "react";
 import DrinkCategory from "../../components/Category/DrinkCategory";
-import Menu from "../../components/Menu/Menu";
 import MenuItem from "../../components/MenuItem/MenuItem";
 import BackButton from "../../components/Widgets/BackButton";
 import BottomBar from "../../components/Widgets/BottomBar";
@@ -13,10 +12,19 @@ const index = () => {
         <BackButton />
         <h1 className="text-2xl text-center">SPEISEKARTE</h1>
       </div>
+
       {/* Drink or Food */}
       <div className="mt-3">
-        <Menu />
+        <div className="flex gap-x-5 justify-center items-center ">
+          <span className="text-base font-boldFont font-semibold hover:bg-secondary hover:text-white px-4 py-2 rounded-lg">
+            Getranke
+          </span>
+          <span className="text-base font-boldFont font-semibold hover:bg-secondary hover:text-white px-4 py-2 rounded-lg">
+            Essen
+          </span>
+        </div>
       </div>
+
       {/* Drink or Food Category */}
       <div className="!overflow-x-auto mt-3">
         <DrinkCategory />
