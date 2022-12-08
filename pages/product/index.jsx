@@ -1,10 +1,13 @@
 import { useState } from "react";
 import Image from "next/image";
-import { AiFillStar } from "react-icons/ai";
+import {
+  AiFillStar,
+  AiOutlinePlusCircle,
+  AiOutlineMinusCircle,
+} from "react-icons/ai";
 import BackButton from "../../components/Widgets/BackButton";
 import WarenkorbButton from "../../components/Widgets/WarenkorbButton";
 import { CiCoffeeCup } from "react-icons/ci";
-import Quantity from "../../components/Widgets/Quantity";
 import { addProduct } from "../../redux/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -134,7 +137,12 @@ const index = () => {
         <div className="flex flex-col justify-evenly pb-2 gap-y-3 pt-3 items-center  bg-[#031a70]  rounded-t-lg">
           <div className="flex items-center justify-between w-screen px-5">
             <span className="text-white text-2xl">{price} $</span>
-            <Quantity />
+
+            <div className="flex gap-x-1 items-center text-fourth text-2xl">
+              <AiOutlineMinusCircle className="" size={35} />
+              {cart.products.length === 0 ? "0" : cart.products.length}
+              <AiOutlinePlusCircle size={35} />
+            </div>
           </div>
           <div>
             <button
