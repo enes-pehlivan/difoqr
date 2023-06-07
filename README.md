@@ -1,4 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![productpage (1)](https://github.com/enes-pehlivan/difoqr/assets/117943554/103964d6-b3c9-4750-9538-62e0b8575716)
+![warenkorb (1)](https://github.com/enes-pehlivan/difoqr/assets/117943554/0395b8d9-a1f3-49eb-b425-14ce70126499)
+![table (1)](https://github.com/enes-pehlivan/difoqr/assets/117943554/6b29ad6d-42bf-48c3-a05f-333560b29a85)
+![speisekarte](https://github.com/enes-pehlivan/difoqr/assets/117943554/3cc28fdb-06f1-4ef0-94fe-1395b6b23094)
+![home1page (1)](https://github.com/enes-pehlivan/difoqr/assets/117943554/f5f675c0-edca-4b24-b295-53e2d0f784fa)
+![homepage (1)](https://github.com/enes-pehlivan/difoqr/assets/117943554/a6067002-5b6f-407f-b8da-99b85c71b51a)
 
 ## Getting Started
 
